@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Skatteverket xmlns="http://xmls.skatteverket.se/se/skatteverket/ai/instans/infoForBeskattning/2.0"
+              xmlns:ku="http://xmls.skatteverket.se/se/skatteverket/ai/komponent/infoForBeskattning/2.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" omrade="Kontrolluppgifter"
+              xsi:schemaLocation="http://xmls.skatteverket.se/se/skatteverket/ai/instans/infoForBeskattning/2.0 http://xmls.skatteverket.se/se/skatteverket/ai/kontrolluppgift/instans/Kontrolluppgifter_2.0.xsd ">
+    <ku:Avsandare>
+        <ku:Programnamn>KUfilsprogrammet</ku:Programnamn>
+        <ku:Organisationsnummer>162234567895</ku:Organisationsnummer>
+        <ku:TekniskKontaktperson>
+            <ku:Namn>John Doe</ku:Namn>
+            <ku:Telefon>+46881234567</ku:Telefon>
+            <ku:Epostadress>siv.karlsson@aktiebolagetab.se</ku:Epostadress>
+            <ku:Utdelningsadress1>Artellerigatan 11</ku:Utdelningsadress1>
+            <ku:Postnummer>62145</ku:Postnummer>
+            <ku:Postort>Visby</ku:Postort>
+        </ku:TekniskKontaktperson>
+        <ku:Skapad>2014-06-07T21:32:52</ku:Skapad>
+    </ku:Avsandare>
+
+    <ku:Blankettgemensamt>
+        <ku:Uppgiftslamnare>
+            <ku:UppgiftslamnarePersOrgnr>165599990610</ku:UppgiftslamnarePersOrgnr>
+            <ku:Kontaktperson>
+                <ku:Namn>Jane Doe</ku:Namn>
+                <ku:Telefon>+46881234567</ku:Telefon>
+                <ku:Epostadress>siv.karlsson@sonjasfrohandel.se</ku:Epostadress>
+            </ku:Kontaktperson>
+        </ku:Uppgiftslamnare>
+        <ku:Uppgiftslamnare>
+            <ku:UppgiftslamnarePersOrgnr>165599990602</ku:UppgiftslamnarePersOrgnr>
+            <ku:Kontaktperson>
+                <ku:Namn>Per Persson</ku:Namn>
+                <ku:Telefon>+4688860001</ku:Telefon>
+                <ku:Epostadress>per.persson@persson.se</ku:Epostadress>
+            </ku:Kontaktperson>
+        </ku:Uppgiftslamnare>
+        <ku:Uppgiftslamnare>
+            <ku:UppgiftslamnarePersOrgnr>165599990248</ku:UppgiftslamnarePersOrgnr>
+            <ku:Kontaktperson>
+                <ku:Namn>Siv Svensson</ku:Namn>
+                <ku:Telefon>+46888654321</ku:Telefon>
+                <ku:Epostadress>siv.svensson@svensson.se</ku:Epostadress>
+            </ku:Kontaktperson>
+        </ku:Uppgiftslamnare>
+    </ku:Blankettgemensamt>
+
+    <!-- Kontrolluppgift 1 -->
+    <ku:Blankett nummer="2300">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU10>
+                <ku:AnstalldFrom faltkod="008">3</ku:AnstalldFrom>
+                <ku:AnstalldTom faltkod="009">12</ku:AnstalldTom>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Bilersattning faltkod="050">1</ku:Bilersattning>
+                <ku:Specifikationsnummer faltkod="570">03</ku:Specifikationsnummer>
+                <ku:InkomsttagareKU10>
+                    <ku:Inkomsttagare faltkod="215">193601286499</ku:Inkomsttagare>
+                </ku:InkomsttagareKU10>
+                <ku:UppgiftslamnareKU10>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                    <ku:NamnUppgiftslamnare faltkod="202">Sonjas fröhandel</ku:NamnUppgiftslamnare>
+                </ku:UppgiftslamnareKU10>
+            </ku:KU10>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 2 -->
+    <ku:Blankett nummer="2340">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU13>
+                <ku:ErsEjSocAvg faltkod="031">5000</ku:ErsEjSocAvg>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Specifikationsnummer faltkod="570">14001</ku:Specifikationsnummer>
+                <ku:InkomsttagareKU13>
+                    <ku:Inkomsttagare faltkod="215">192107139269</ku:Inkomsttagare>
+                </ku:InkomsttagareKU13>
+                <ku:UppgiftslamnareKU13>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                    <ku:NamnUppgiftslamnare faltkod="202">Sonjas fröhandel</ku:NamnUppgiftslamnare>
+                </ku:UppgiftslamnareKU13>
+            </ku:KU13>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 3 -->
+    <ku:Blankett nummer="2320">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990248</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU21>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:UtbetaltIVissaFall faltkod="522">1000</ku:UtbetaltIVissaFall>
+                <ku:Specifikationsnummer faltkod="570">675</ku:Specifikationsnummer>
+                <ku:AvyttradTillISK faltkod="573">1</ku:AvyttradTillISK>
+                <ku:ISIN faltkod="572">SE0000108656</ku:ISIN>
+                <ku:InkomsttagareKU21>
+                    <ku:Inkomsttagare faltkod="215">193211056969</ku:Inkomsttagare>
+                </ku:InkomsttagareKU21>
+                <ku:UppgiftslamnareKU21>
+                    <ku:UppgiftslamnarId faltkod="201">165599990248</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU21>
+            </ku:KU21>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 4 -->
+    <ku:Blankett nummer="2323">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990610</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU20>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:AnnanInkomst faltkod="504">300</ku:AnnanInkomst>
+                <ku:Specifikationsnummer faltkod="570">255</ku:Specifikationsnummer>
+                <ku:InkomsttagareKU20>
+                    <ku:Inkomsttagare faltkod="215">193601286499</ku:Inkomsttagare>
+                </ku:InkomsttagareKU20>
+                <ku:UppgiftslamnareKU20>
+                    <ku:UppgiftslamnarId faltkod="201">165599990610</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU20>
+            </ku:KU20>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 5 -->
+    <ku:Blankett nummer="2300">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990610</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU10>
+                <ku:AnstalldFrom faltkod="008">10</ku:AnstalldFrom>
+                <ku:KontantBruttolonMm faltkod="011">250001</ku:KontantBruttolonMm>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Specifikationsnummer faltkod="570">00902</ku:Specifikationsnummer>
+                <ku:InkomsttagareKU10>
+                    <ku:Inkomsttagare faltkod="215">165599990602</ku:Inkomsttagare>
+                </ku:InkomsttagareKU10>
+                <ku:UppgiftslamnareKU10>
+                    <ku:UppgiftslamnarId faltkod="201">165599990610</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU10>
+            </ku:KU10>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+</Skatteverket>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Skatteverket xmlns="http://xmls.skatteverket.se/se/skatteverket/ai/instans/infoForBeskattning/2.0"
+              xmlns:ku="http://xmls.skatteverket.se/se/skatteverket/ai/komponent/infoForBeskattning/2.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" omrade="Kontrolluppgifter"
+              xsi:schemaLocation="http://xmls.skatteverket.se/se/skatteverket/ai/instans/infoForBeskattning/2.0 http://xmls.skatteverket.se/se/skatteverket/ai/kontrolluppgift/instans/Kontrolluppgifter_2.0.xsd ">
+    <ku:Avsandare>
+        <ku:Programnamn>KUfilsprogrammet</ku:Programnamn>
+        <ku:Organisationsnummer>162234567895</ku:Organisationsnummer>
+        <ku:TekniskKontaktperson>
+            <ku:Namn>Siv Doe</ku:Namn>
+            <ku:Telefon>+46881234567</ku:Telefon>
+            <ku:Epostadress>siv.karlsson@aktiebolagetab.se</ku:Epostadress>
+            <ku:Utdelningsadress1>Artellerigatan 11</ku:Utdelningsadress1>
+            <ku:Postnummer>62145</ku:Postnummer>
+            <ku:Postort>Visby</ku:Postort>
+        </ku:TekniskKontaktperson>
+        <ku:Skapad>2014-06-07T21:32:52</ku:Skapad>
+    </ku:Avsandare>
+
+    <ku:Blankettgemensamt>
+        <ku:Uppgiftslamnare>
+            <ku:UppgiftslamnarePersOrgnr>165599990602</ku:UppgiftslamnarePersOrgnr>
+            <ku:Kontaktperson>
+                <ku:Namn>John Doe</ku:Namn>
+                <ku:Telefon>+46812345678</ku:Telefon>
+                <ku:Epostadress>siv.karlsson@sonjasfrohandel.se</ku:Epostadress>
+                <ku:Sakomrade>Skatteverket</ku:Sakomrade>
+            </ku:Kontaktperson>
+        </ku:Uppgiftslamnare>
+    </ku:Blankettgemensamt>
+
+    <!-- Kontrolluppgift 1 -->
+    <ku:Blankett nummer="2322">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU31>
+                <ku:UppgiftslamnareKU31>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU31>
+                <ku:AvdragenKupongskatt faltkod="003">7500</ku:AvdragenKupongskatt>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Specifikationsnummer faltkod="570">137</ku:Specifikationsnummer>
+                <ku:ISIN faltkod="572">SE0005966504</ku:ISIN>
+                <ku:UtbetaldUtdelning faltkod="574">50000</ku:UtbetaldUtdelning>
+                <ku:InkomsttagareKU31>
+                    <ku:Fodelsetid faltkod="222">19541231001</ku:Fodelsetid>
+                    <ku:Fornamn faltkod="216">Wolfgang</ku:Fornamn>
+                    <ku:Efternamn faltkod="217">Schnell</ku:Efternamn>
+                    <ku:Gatuadress faltkod="218">Unter den Linden 8</ku:Gatuadress>
+                    <ku:Postnummer faltkod="219">DE-1999</ku:Postnummer>
+                    <ku:Postort faltkod="220">Berlin</ku:Postort>
+                    <ku:LandskodPostort faltkod="221">DE</ku:LandskodPostort>
+                    <ku:TIN faltkod="252">321654873</ku:TIN>
+                    <ku:LandskodTIN faltkod="076">DE</ku:LandskodTIN>
+                </ku:InkomsttagareKU31>
+            </ku:KU31>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 2 -->
+    <ku:Blankett nummer="2322">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU31>
+                <ku:UppgiftslamnareKU31>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU31>
+                <ku:AvdragenKupongskatt faltkod="003">3000000</ku:AvdragenKupongskatt>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Specifikationsnummer faltkod="570">13</ku:Specifikationsnummer>
+                <ku:ISIN faltkod="572">SE0000164626</ku:ISIN>
+                <ku:Avstamningsdag faltkod="853">20150430</ku:Avstamningsdag>
+                <ku:UtbetaldUtdelning faltkod="574">10000000</ku:UtbetaldUtdelning>
+                <ku:InkomsttagareKU31>
+                    <ku:AnnatIDNr faltkod="224">7981110</ku:AnnatIDNr>
+                    <ku:OrgNamn faltkod="226">Chase Manhattan Bank</ku:OrgNamn>
+                    <ku:Gatuadress faltkod="218">42nd Street upper part</ku:Gatuadress>
+                    <ku:Gatuadress2 faltkod="228">c/o Kimberly Smith and Gordon Anderson office</ku:Gatuadress2>
+                    <ku:Postnummer faltkod="219">10011</ku:Postnummer>
+                    <ku:Postort faltkod="220">New York</ku:Postort>
+                    <ku:LandskodPostort faltkod="221">US</ku:LandskodPostort>
+                </ku:InkomsttagareKU31>
+            </ku:KU31>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Kontrolluppgift 3 -->
+    <ku:Blankett nummer="2322">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KU31>
+                <ku:UppgiftslamnareKU31>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKU31>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Specifikationsnummer faltkod="570">120</ku:Specifikationsnummer>
+                <ku:ISIN faltkod="572">SE0005966504</ku:ISIN>
+                <ku:OkandVarde faltkod="599">1</ku:OkandVarde>
+                <ku:InkomsttagareKU31>
+                    <ku:Fodelsetid faltkod="222">19541231001</ku:Fodelsetid>
+                    <ku:Fornamn faltkod="216">Wolfgang</ku:Fornamn>
+                    <ku:Efternamn faltkod="217">Schnell</ku:Efternamn>
+                    <ku:FriAdress faltkod="230">Gatan bakom mosken / hos familjen Benidictus / mellan de två granarna
+                        tall och
+                        kotte
+                    </ku:FriAdress>
+                    <ku:LandskodPostort faltkod="221">DE</ku:LandskodPostort>
+                    <ku:TIN faltkod="252">321654873</ku:TIN>
+                    <ku:LandskodTIN faltkod="076">DE</ku:LandskodTIN>
+                </ku:InkomsttagareKU31>
+            </ku:KU31>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+    <!-- Sammanställning -->
+    <ku:Blankett nummer="3715">
+        <ku:Arendeinformation>
+            <ku:Arendeagare>165599990602</ku:Arendeagare>
+            <ku:Period>2016</ku:Period>
+        </ku:Arendeinformation>
+        <ku:Blankettinnehall>
+            <ku:KupongS>
+                <ku:UppgiftslamnareKupongS>
+                    <ku:UppgiftslamnarId faltkod="201">165599990602</ku:UppgiftslamnarId>
+                </ku:UppgiftslamnareKupongS>
+                <ku:Inkomstar faltkod="203">2016</ku:Inkomstar>
+                <ku:Redovisningsnummer faltkod="851">123</ku:Redovisningsnummer>
+                <ku:NummerAterbetalning faltkod="854">1234-5678</ku:NummerAterbetalning>
+                <ku:ISIN faltkod="572">SE0000106270</ku:ISIN>
+                <ku:Avstamningsdag faltkod="853">20150430</ku:Avstamningsdag>
+                <ku:UtdelningEjSkSkKSkatt faltkod="860">25600000</ku:UtdelningEjSkSkKSkatt>
+                <ku:UtdelningNollProcKSkatt faltkod="861">250000</ku:UtdelningNollProcKSkatt>
+                <ku:UtdelningTioProcKSkatt faltkod="863">328500</ku:UtdelningTioProcKSkatt>
+                <ku:UtdelningTjugofemProcKSkatt faltkod="866">854000</ku:UtdelningTjugofemProcKSkatt>
+                <ku:UtdelningTrettioProcKSkatt faltkod="867">6547000</ku:UtdelningTrettioProcKSkatt>
+                <ku:SaUtdelningAB faltkod="869">33579500</ku:SaUtdelningAB>
+                <ku:TotalsummaUtdelning faltkod="882">33579500</ku:TotalsummaUtdelning>
+                <ku:KSkattTioProc faltkod="873">32850</ku:KSkattTioProc>
+                <ku:KSkattTjugofemProc faltkod="876">213500</ku:KSkattTjugofemProc>
+                <ku:KSkattTrettioProc faltkod="877">1964100</ku:KSkattTrettioProc>
+                <ku:SaKSkattAB faltkod="879">2210450</ku:SaKSkattAB>
+                <ku:TotalsummaKSkatt faltkod="883">2210450</ku:TotalsummaKSkatt>
+                <ku:UtdFranEuroclear faltkod="884">33579500</ku:UtdFranEuroclear>
+                <ku:Insattningsdatum faltkod="855">20150815</ku:Insattningsdatum>
+            </ku:KupongS>
+        </ku:Blankettinnehall>
+    </ku:Blankett>
+</Skatteverket>
